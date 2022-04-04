@@ -131,6 +131,7 @@ a{
     background-color: var(--link-color);
     border-radius: 2px;
     opacity: 0;
+    transition:opacity var(--anim-fast) ;
 }
 .link-current:hover:after{
     opacity: 1;
@@ -197,6 +198,7 @@ margin-left: auto;
     height: 16px;
     margin-right: 10px;
     fill: var(--primary-text-color);
+    transition:fill var(--anim-fast) ;
     
 }
 .icon-envelope-1{
@@ -204,12 +206,13 @@ margin-left: auto;
     height: 12px;
     margin-right: 10px;
     fill: var(--primary-text-color);
-    
+    transition:fill var(--anim-fast) ;
 }
 .link{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition:color var(--anim-fast) ;
 }
 /* hero */
 .hero{
@@ -599,6 +602,7 @@ img {
     width: 106px;
     height: 60px;
     fill: #afb1b8;
+    transition:fill var(--anim-fast) ;
 }
 .clients-link {
     display: flex;
@@ -730,8 +734,10 @@ img {
     border-radius: 4px;
     padding: 6px 19px;
     border:none;
-    transition:background-color var(--anim-fast) ;
-    transition:box-shadow var(--anim-fast) ;
+    transition: background-color var(--anim-fast) ;
+    transition: box-shadow var(--anim-fast) ;
+    transition:color var(--anim-fast) ;
+    
 }
 .portfolio-menu{
     margin-right: 8px;
